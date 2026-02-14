@@ -1,0 +1,91 @@
+.boot-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #008080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-family: 'Arial', sans-serif;
+  cursor: wait;
+}
+
+
+.boot-content {
+  text-align: center;
+}
+
+.boot-title {
+  margin-bottom: 20px;
+}
+
+.microsoft {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.tony-os {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 4px 4px 0px #000;
+  font-family: 'Impact', sans-serif;
+}
+
+.os-suffix {
+  font-size: 2rem;
+  color: #c0c0c0;
+}
+
+.boot-subtitle {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  font-style: italic;
+  text-shadow: 1px 1px 0px #000;
+}
+
+
+.boot-bar-container {
+  width: 400px;
+  height: 25px;
+  background-color: #c0c0c0;
+  border: 2px solid;
+  border-color: #808080 #fff #fff #808080;
+  padding: 2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.boot-bar-fill {
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #000080,
+    #000080 10px,
+    #1084d0 10px,
+    #1084d0 20px
+  );
+  transition: width 0.1s linear;
+}
+
+.boot-status {
+  margin-top: 10px;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+.boot-footer {
+  position: absolute;
+  bottom: 20px;
+  color: #c0c0c0;
+  font-size: 0.8rem;
+}

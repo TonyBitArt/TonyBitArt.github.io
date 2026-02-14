@@ -1,0 +1,57 @@
+.desktop {
+  width: 100vw;
+  height: 100vh;
+  background-color: #008080;
+  overflow: hidden;
+  position: relative;
+  font-family: 'MS Sans Serif', 'Segoe UI', sans-serif;
+}
+
+
+.icons-column {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 10;
+}
+
+
+.desktop-icon {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  border: 1px dotted transparent;
+  padding: 5px;
+}
+
+
+.desktop-icon:hover {
+  background-color: rgba(0, 0, 128, 0.3);
+  border: 1px dotted white;
+}
+
+
+.desktop-icon:active {
+  background-color: rgba(0, 0, 128, 0.5);
+}
+
+
+.icon-img {
+  font-size: 40px;
+  margin-bottom: 5px;
+  filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.5));
+}
+
+
+.icon-label {
+  color: white;
+  font-size: 0.9rem;
+  text-shadow: 1px 1px 1px black;
+  line-height: 1.1;
+}
